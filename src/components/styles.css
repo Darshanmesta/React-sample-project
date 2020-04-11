@@ -1,0 +1,274 @@
+
+/* navbar code starts here....*/
+
+.navbar{
+    background-color: #827397;
+    height: auto;
+}
+
+.navbar ul{
+  
+    
+    margin-left: 30%;
+}
+
+.navbar>ul>li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: snow;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+.navbar>ul>li:hover{
+    background-color: crimson;  
+    transition: 2s;
+}
+
+/* nav code ends here ...*/
+
+
+
+
+
+/* section1 code  starts here...*/
+
+.sec1{
+   
+    width: 100%;
+    height:auto;
+    background: url('../components/img/download2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat    ;
+ 
+
+}
+
+.sec1 > p{
+    color: yellowgreen;
+    padding-top: 2%;
+   
+    margin-left: 38%;
+    margin-top: 1% ;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    width:50%;
+    height: 5%;
+    font-style: italic;
+
+}
+
+.sec1>p:hover{
+    color: springgreen;
+    transform: scaleX(1.3);
+    transform: scaleY(1.5);
+    transition: 2s;
+    color: thistle;
+    
+}
+
+.inner{
+   
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+    
+    
+   
+  
+}
+.inner-item{
+    
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: inline-flex;
+}
+
+.inner-item img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.inner-item p{
+    color: snow;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.one , .two, .three, .four{
+
+   
+    width: 40%;
+    text-align: center;
+    margin: 2px 5px;
+}
+
+.inner-item a{
+    color: springgreen;
+    text-decoration: none;
+}
+
+
+.inner-item a:hover{
+    color: darkred;
+}
+
+/* section1 code ends here .....*/
+
+
+
+/* 
+section2 code starts here */
+
+
+.sec2{
+    background-color: skyblue;
+    margin-bottom: 30px;
+}
+
+.secinn{
+    width: 100%;
+    height: 50%;
+    display: inline-flex;
+    margin: 5%;
+    margin-left: 20%;
+}
+
+.secinn img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    
+
+}
+
+.secinn img:hover{
+ 
+    transform:rotateX(50deg);
+    transition: 2s;
+    
+}
+
+.secinn p{
+    text-align: center;
+    color: darkred;
+    font-weight: bolder;
+   
+}
+.secinn p:hover{
+  
+    color:crimson;
+    font-size: 1.2rem;
+   
+
+}
+
+
+
+/* 
+section2 code ends here */
+
+
+
+
+/* 
+section 3 code starts here */
+
+.sec3{
+    display: inline-flex;
+}
+
+.sec3inn, .sec4inn, .sec5inn{
+    border-right: 2px  solid #851d41;
+    border-bottom:2px solid #851d41;
+   
+    box-shadow: 7px 10px 5px 2px #000;
+    width: 400px;
+    height: 400px;
+    margin:0px 20px;
+
+}
+
+.sec3inn1, .sec4inn1, .sec5inn1{
+    background-color:#8566aa;
+    width:400px;
+    height: 200px;
+
+}
+
+.sec3img{
+    width:80px;
+    height:80px;
+    margin-left:40%;
+    margin-top: 10%;
+}
+
+.sec3inn2, .sec4inn2, .sec5inn2{
+    width:400px;
+    height:75px;
+    background-color: #d8b5b5;
+    display: inline-flex;
+
+}
+
+.sec3inn2:hover, .sec4inn2:hover, .sec5inn2:hover{
+    background-color: tomato;
+}
+
+.cal1{
+    width:50px;
+    height: 50px;
+    margin-left:20px;
+    background-color: #63b7af;
+    float:left;
+}
+
+.cal1:hover{
+    background-color: firebrick;
+
+}
+
+.cal2{
+  float:left;
+  margin-right: 30px;
+
+}
+
+
+
+
+
+
+.sec3p{
+    /* display: inline-flex; */
+    margin-left:70px;
+    background-color: floralwhite;
+    padding:0px 90px;
+}
+
+.sec3p:hover{
+    background-color: #fbceb5;
+}
+
+/* section 3 code ends here */
+
+
+/* footer code starts here*/
+
+.foot1{
+    margin-top: 10%;
+    background-color: violet;
+    text-align: center;
+}
+
+
+
+
