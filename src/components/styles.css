@@ -261,14 +261,49 @@ section 3 code starts here */
 /* section 3 code ends here */
 
 
+
+
+
 /* footer code starts here*/
 
 .foot1{
     margin-top: 10%;
-    background-color: violet;
+    /* background-color: violet; */
+    background-color: #b9ebcc;
     text-align: center;
+}
+
+.icons i{
+    margin:5px 25px;
+}
+
+.foot1 > p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+    margin-bottom: 15px;
+    color: crimson;
+
+}
+
+.foot1>p:hover{
+    color: forestgreen;
+}
+
+.icons>a>i:hover{
+    background-color: whitesmoke    ;
+}
+
+
+.copyRight>p{
+    color: firebrick;
+}
+
+.end>p{
+    color: darkslateblue;
 }
 
 
 
 
+/* footer code ends here */
